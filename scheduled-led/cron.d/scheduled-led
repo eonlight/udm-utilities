@@ -1,5 +1,5 @@
 # led off at 9.00pm
-0 21 * * * /mnt/data/scheduled-led off
+0 21 * * * /mnt/data/scheduled-led/scheduled-led.sh off
 
 # led on at 7am
-0 7 * * * /mnt/data/scheduled-led on
+0 7 * * * /mnt/data/scheduled-led/scheduled-led.sh on
